@@ -62,12 +62,83 @@ nav ul.active{
         display: flex;
     }
 
-    nav ul{
+    .list{
         flex-direction: column;
         display: none;
         position: absolute;
-        top: 60px;
-        right: 50px;
-        background-color: rgb(37, 223, 0);
+        top: 90px;
+        right: 70px;
+        background-color: lightskyblue;
+        width: 200px;
+        padding-left: 20px;
+        border-radius: 10%;
     }
+
+    nav ul li:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
+form {
+    width: 300px;
+    margin: 20px auto 0 auto;
+    border: 1px solid gray;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn {
+    width: 250px;
+    height: 100px;
+    background-color: aqua;
+
+    border: none;
+    border-radius: 5%;
+
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    background-color: yellow;
+    color: blueviolet;
+    border: none;
+}
+.modal{ 
+    width: 350px;
+    height: 200px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    background-color: white;
+}
+p{ 
+    text-align: center;
+}
+.close{
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal.show{
+    display: flex;
+}
+
+body .modal-open{
+    background-color: brown;
 }
