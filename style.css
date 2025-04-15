@@ -8,7 +8,7 @@ header {
   align-items: center;
   background-color: rgb(4, 247, 255);
   color: white;
-  padding: 40px;
+  padding: 25px;
 }
 
 img {
@@ -186,7 +186,7 @@ input {
 .button:hover {
   background-color: #45a049;
 }
-.icon{
+.icon-email{
   position: absolute;
   width: 20px;
   height: 20px;
@@ -198,4 +198,47 @@ input {
 
 .wrapper{
   position: relative;
+}
+.icon-envelop{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 65%;
+  left: 10px;
+  transform: translateY(-50%); 
+
+}
+
+.icon-lock{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 72%;
+  left: 35px;
+  transform: translateY(-50%); 
+
+}
+footer{
+  padding: 30px;
+
+  background-color: rgb(4, 247, 255);
+}
+
+.odkazy{
+  list-style-type: none;
+  font-size: 30px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.gmaps{
+  position: absolute;
+  bottom: -23px;
+  left: 900px;
 }

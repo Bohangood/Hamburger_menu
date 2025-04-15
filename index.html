@@ -108,26 +108,45 @@
           required
           
         />
-        <svg class="icon">
+        <svg class="icon-email">
           <use href="icons.svg#Humm"></use>
         </svg>
       </div>
     </label>
     <label>
+      <div class="wrapper">
       E-mail:
 
         <input type="email" required />
+        <svg class="icon-envelop">
+          <use href="icons.svg#envelop"></use>
+        </svg>
+      </div>
     </label>
     <label>
+      <div>
       Heslo:
-      <input type="password" minlength="5" maxlength="12" />
+      <input type="password" minlength="5" maxlength="12"  required/>
+      <svg class="icon-lock">
+        <use href="icons.svg#lock"></use>
+      </svg>
+    </div>
     </label>
     <button class='button' type="submit">Submit</button>
   </form>
 </div>
 </div>
 
-<footer></footer>
+<footer >
+    <ul class="odkazy" id="contact">
+      <li><a href="tel:+42057377">Zavolaji nam</a></li>
+      <li><a href="https://www.facebook.com/">Facebook</a></li>
+      <li><a href="https://www.instagram.com/">Instagram</a></li>
+    </ul>
+    <div class="section">
+      <iframe class="gmaps" src="https://www.google.com/maps/place/Opletalova+1418%2F23,+110+00+Nov%C3%A9+M%C4%9Bsto,+%D0%A7%D0%B5%D1%85%D0%B8%D1%8F/@50.083148,14.431821,14z/data=!4m6!3m5!1s0x470b94937363f49b:0x66749cf4dcb3e64c!8m2!3d50.0831484!4d14.431821!16s%2Fg%2F11b8v48531?hl=ru&entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" frameborder="0" width="300" height="150"></iframe>
+    </div>
+</footer>
   <script src="script.js"></script>
 </body>
 </html>
