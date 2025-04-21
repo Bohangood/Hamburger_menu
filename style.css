@@ -242,14 +242,16 @@ a {
   color: white;
   text-decoration: none;
 }
-.section{
-  width: 300px;
-  height: 200px;
+.iframe1{
+ display: flex;
+ width: 100%;
+flex-direction:row;
+
+
  } 
 
 
 .gmaps{
- position: relative;
-  bottom: 100px;
-  right: -900px;
+  position: relative;
+ right: -800px;
 }
